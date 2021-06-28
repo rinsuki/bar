@@ -1,0 +1,21 @@
+{
+  "name": "@rinsuki/bar",
+  "description": "(Binary|Buffer) Async Reader",
+  "version": "1.0.0",
+  "repository": {
+    "url": "https://github.com/rinsuki/bar"
+  },
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "prepack": "tsc",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/node": "^15.12.5",
+    "typescript": "^4.3.4"
+  },
+  "files": [
+    "lib"
+  ]
+}
